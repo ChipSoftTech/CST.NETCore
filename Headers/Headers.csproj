@@ -4,12 +4,21 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CST.NETCore.Headers</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.3-rc</Version>
     <Authors>CST.NETCore.Headers</Authors>
     <Company>CST.NETCore.Headers</Company>
     <Product>CST.NETCore.Headers</Product>
     <Description>Add security and custom headers</Description>
     <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/ChipSoftTech/CST.NETCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Add security and custom headers</PackageReleaseNotes>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.chipsofttech.com</PackageProjectUrl>
+    <PackageTags>.NET core headers</PackageTags>
+    <AssemblyName>CST.NETCore.Headers</AssemblyName>
+    <RootNamespace>CST.NETCore.Headers</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

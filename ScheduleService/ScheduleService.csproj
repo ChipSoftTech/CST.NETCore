@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>CST.NETCore.ScheduleService</AssemblyName>
+    <RootNamespace>CST.NETCore.ScheduleService</RootNamespace>
+    <Version>1.0.1-rc</Version>
+    <Description>CST.NETCore.ScheduleService
+Schedule services using CRON syntex</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.chipsofttech.com</PackageProjectUrl>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/ChipSoftTech/CST.NETCore</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>.net core cron schedule jobs</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
